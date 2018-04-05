@@ -9,5 +9,6 @@ public class TestSomething {
         Mockito.when(sayHello.helloWorld()).thenAnswer(answer -> "hey there");
 
         System.out.println(sayHello.helloWorld());
+        System.out.println("Yeeees");
     }
 }
